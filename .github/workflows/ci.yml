@@ -11,4 +11,4 @@ jobs:
         uses: trufflesecurity/trufflehog@main
         with:
           path: ./
-          extra_args: --results=verified,unknown
+          extra_args: --no-verification
